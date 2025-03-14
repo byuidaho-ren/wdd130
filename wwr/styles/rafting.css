@@ -1,0 +1,4 @@
+/* The following css selector rule removes underline */
+a {
+    text-decoration: none;
+}
