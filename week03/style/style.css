@@ -23,6 +23,7 @@
   --accent-color: #5f9ea0; /* Accent color that complements steelblue */
   --background-color: #f4f4f4; /* Background color */
   --text-color: #333333; /* Text color */
+  --text-color-highlight: #fff; /* Text color */
 }
 
 /* Using the defined variables in the rest of the CSS */
@@ -34,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 button {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--text-color-highlight);
 }
 
 a {
@@ -69,7 +70,7 @@ a:hover {
   /* Center it horizontally */
   transform: translateX(-50%); 
   /* Adjust text color as needed */
-  color: white; 
+  color: var(--text-color-highlight);
   /* Adjust font size as needed */
   font-size: 3rem; 
   /* Optional: Add a shadow to make the text stand out */
@@ -93,7 +94,7 @@ a:hover {
   /* Adjust width as needed */
   width: 50%; 
   /* Adjust text color as needed */
-  color: white; 
+  color: var(--text-color-highlight);
   /* Optional: Add a semi-transparent background */
   background-color: #4682b494;
   /* Add padding for content inside the article */
