@@ -16,7 +16,6 @@
  1 pts | Complete CSS :root pseudo-class selector has colors from the site plan documentation defined as variables.
 
 */
-
 :root {
   --primary-color: steelblue; /* Primary color set to steelblue */
   --secondary-color: #4682b4; /* Secondary color that complements steelblue */
