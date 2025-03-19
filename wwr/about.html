@@ -1,84 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me - Software Developer | About Us Page</title>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Renniel Fernandez | week03 </title>
 
-    <meta name="description" content="BYU Idaho Renniel Fernandez Website HTML and CSS">
-    <meta name="author" content="Renniel Fernandez">
+        <!--
+         9. Google Font Reference
+         1 pts | Complete The three required Google Font <link> references are located in the <head> using at least two font-families.
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+   
+        <link rel="stylesheet" href="styles/rafting.css">
 
-    <!-- installing fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- / of fonts -->
-     
-    <link rel="stylesheet" href="styles/rafting.css">
+    </head> 
+    <body>
 
-</head>
-<body>
+        <!-- 
+          This criterion is linked to a Learning Outcome2. Header Content 
+          2 pts | Complete The header contains a working logo image and a navigation element.           
+        -->
+        <header>
 
-    <header>
-        <div class="branding">
-            <img src="images/z-excitingexpedition.jpg" alt="logo"/>
-        </div>
-        <nav>
+            <img src="images/z-excitingexpedition.jpg" alt="Branding Rapids">
 
-            <ul class="nav-about">
-               <li><a href="#home">Home</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#services">Services</a></li>
-               <li><a href="#contact">Contact Us</a></li>
-            </ul>
+            <!--
+             3. Nav Content 
+             1 pts | Complete The nav element contains four (4) links to the four pages of the project. They will not be working yet.            
+            -->
 
-        </nav>
-    </header>
-    <article class="hero">
-        <div class="hero-info">
-            <h1>
-                WHITE WATER RAFTING
-            </h1>
-            <div class="hero-description">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                <img src="" />
-            </div>
-        </div>
-    </article>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Trips</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </header>
+        
+        <!-- 
+          4. Main Content
+          1 pts | Complete The main element exists and contains a div with a class of hero and two (2) sections.
+        -->
 
-    <main>
+        <main>
 
-        <section>
-            <h2>History</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <!-- 
             
-        </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="" alt="" />
-            <h3>Peaceful rapids</h3>
-            <img src="" alt="" />
-            <h3>Colorado River</h3>
-            <img src="" alt="" />
-            <h3>Bear River</h3>
-            <img src="" alt="" />
-            <h3>Smokey River</h3>
-            <img src="" alt="" />
-            <h3>Boise RIver</h3>
-        </section>
-    
-    </main>
+                5.Main: div.hero
+                1 pts | Complete The hero div element contains an image, an h1 heading with the title of the rafting company, an article element with an img and paragraph.
+            
+            -->
+            <!--  4. Main Content -->    
+            <div class="hero">
+                <img src="images/rafting53_600.jpg" alt="Rafting Adventure">
+            
+                <h1>Rafting Adventures Co.</h1>
+ 
+                <article>
+                <img src="images/rafting59_600.jpg" alt="Rafting experience"  style="width: 200px;">
+                <p>Experience the thrill of rafting with Rafting Adventures Co.! Join us for a memorable adventure through wild rivers and breathtaking scenery.</p>
+                </article>
+            </div>
 
-    <footer>
-        <p>@2025 White Water Rafting Xavier</p>
-        <ul>
-            <li>fb</li>
-            <li>tr</li>
-            <li>YT</li>
-        </ul>
+              <section>
+                <!-- 
+                  6. Main: Section - History
+                  1 pts | Complete One section element has a h2 heading of "History" and a paragraph with any type of content at this point.
+                -->
+                <h2>History</h2>
+                <p>Rafting Adventures Co. was founded in 1999 by a group of passionate adventurers. Over the years, we have grown into a leading company offering thrilling rafting experiences on some of the most scenic rivers in the world.</p>
+              </section>
+            
+              <section>
+                <!-- 
+                7. Main: Section - Adventure
+                1 pts | Complete One section element has a h2 heading of "Adventure Awaits You" and five images.
+                -->
+                <h2>Adventure Awaits You</h2>
+                <div class="adventure-images">
+                  <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting65_600.jpg" alt="Adventure 1">
+                  <h3>Peaceful rapids</h3>
+                  <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting64_600.jpg" alt="Adventure 2">
+                  <h3>Colorado River</h3>
+                  <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting19_600.jpg" alt="Adventure 3">
+                  <h3>Bear River</h3>
+                  <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting47_600.jpg" alt="Adventure 4">
+                  <h3>Smokey River</h3>
+                  <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting17_600.jpg" alt="Adventure 5">
+                  <h3>Smokey Riverside</h3>
+                </div>
+              </section>  
+             <!-- END OF NUMBER 4 -->
 
-    </footer>
+          </main>
+          
+   <!-- 
+   8. Footer
+   1 pts | Complete The footer element contains a paragraph and three social media icons that are linked. The paragraph contains the copyright symbol, the year, the rafting company name and the student name.       
+   -->
+  <footer>
+    <p>&copy; 2025 Rafting Adventures Co. | Designed by Student Name</p>
+    <div class="social-media">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="images/twitter.png" alt="Twitter">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/yt.png" alt="Instagram">
+      </a>
+    </div>
+  </footer>
 
-</body>
+    </body>
 </html>
