@@ -108,6 +108,7 @@
     float: right;
     margin-left: 20px; /* Add some space between the image and text */
     max-width: 50%; /* Adjust the image size as needed */
+    width: 200px;
     height: auto; /* Keep the aspect ratio of the image */
   }
   
