@@ -487,11 +487,6 @@ footer p {
   padding: 25px 0px;
 }
 
-.flex-cols {
-  display: flex;
-  gap: 25px;
-}
-
 .wk5 h1 {
   margin-left: unset;
 }
@@ -509,17 +504,19 @@ footer p {
 }
 
 /* profile description */
-.col2-7.wk5,
-img {
+.wk5,
+img-caption {
   position: relative;
+  overflow: clip;
 }
 
 .profile-caption {
   position: absolute;
   bottom: 30px;
   background-color: #333333c9;
-  padding: 15px;
   color: #fff;
+  width:  100%;
+  padding: 25px;
 }
 
 form {
@@ -635,4 +632,48 @@ button:hover {
 
 .form-item.radio-group label {
   text-align: left;
+}
+
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.contact-info {
+  margin-left: 0px;    
+ }
+
+ .lay-full {
+   width: 100%;
+ }
+
+ .grid-hero-images {
+  display: grid;
+   grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+   grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+   gap: 10px; /* Optional: space between grid items */
+  
+}
+
+.hero-images-tiles {
+  width: 100%;
+}
+
+.hero-images-tiles {
+  width: 100%;
+}
+
+.img-caption {
+  position: relative;
+  overflow: clip;
+  
+}
+
+.profile-caption-tile {
+    position: absolute;
+    background-color: #333;
+    bottom: 0px;
+    color: #fff;
+    padding-left: 15px;
 }
