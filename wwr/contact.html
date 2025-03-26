@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Rafting Adventures Co. - About Us </title>
+        <title>Rafting Adventures Co. - Contact Us </title>
 
-        <meta name="description" content="Experience the thrill of rafting with Rafting Adventures Co.! Join us for a memorable adventure through wild rivers and breathtaking scenery.">
+        <meta name="description" content="Experience the thrill of rafting with Rafting Adventures Co. Contact Us now">
         <meta name="author" content="Renniel Fernandez">
 
         <!--
@@ -18,6 +18,122 @@
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
    
         <link rel="stylesheet" href="styles/rafting.css">
+
+        <style>
+
+.form-container h2 {
+    text-align: center;
+}
+            form {
+                width: 100%;
+                margin: 0 auto;
+                /* padding: 1rem; */
+                border: 1px solid rgb(0 0 0 / 0.1);
+                border-radius: 0.5rem;
+                background-color: #eee;
+                display: grid;
+            }
+    
+            fieldset {
+                display: grid;
+                grid-gap: .5rem;
+                margin: 1rem;
+                border: 1px solid rgb(0 0 0 / 0.2);
+                padding: 1rem;
+            }
+    
+            fieldset:nth-child(2) div:nth-child(2) select,
+            fieldset:nth-child(2) div:nth-child(2) input#pet {
+                width: 150px;
+            }
+    
+            fieldset:nth-child(2) div:nth-child(2) label,
+            fieldset:nth-child(2) div:nth-child(3) label {
+                width: 400px;
+            }
+    
+            legend {
+                padding: 0.5rem;
+                color: navy;
+                font-size: 1.3em;
+            }
+    
+            label, input, button, select, textarea {
+                font-family: Roboto, Arial, sans-serif;
+            }
+    
+            label {
+                text-align: right;
+                padding-right: 1rem;
+            }
+    
+            input, select, textarea {
+                padding: 0.5rem;
+                font-size: 1.1rem;
+            }
+    
+            input[type="checkbox"] {
+                width: 22px;
+                height: 22px;
+                vertical-align: bottom;
+            }
+    
+            button {   
+                background-color: navy;
+                color: #fff;
+                border: none;
+                border-radius: .5rem;
+                padding: 1rem;
+                font-size: 1.2rem;
+                width: 250px;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+    
+            button:hover {
+                background-color: darkgreen;
+            }
+    
+            .form-item {
+                display: grid;
+                align-items: center;
+            }
+    
+            .column1 {
+                grid-template-columns: 1fr 3fr;
+                margin: 0.5rem 0;
+            }
+    
+            .column2 {
+                grid-template-columns: 1fr 2fr;
+            }
+    
+            /* Ensuring better form structure */
+
+            .radio-group, .checkbox-group {
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;
+                align-items: center;
+                justify-items: center;
+            }
+            
+            .radio-group input,
+            .checkbox-group input {
+                margin-right: 0.5rem;
+            }
+
+            .form-item.radio-group {
+                display: grid;
+                justify-items: start;
+                
+            }
+
+            .form-item.radio-group label {
+                text-align: left;
+            }
+    
+        </style>
 
     </head> 
     <body>
@@ -55,78 +171,113 @@
           1 pts | Complete The main element exists and contains a div with a class of hero and two (2) sections.
         -->
 
-        <main>
+          <main>
+        
+            <section id="contact_id">
+                <div class="container flex-cols">
+                    <div class="col2-7 wk5">
 
-            <!-- 
-            
-                5.Main: div.hero
-                1 pts | Complete The hero div element contains an image, an h1 heading with the title of the rafting company, an article element with an img and paragraph.
-            
-            -->
-            <!--  4. Main Content -->    
-            
-            <div class="hero">
-                <img src="images/rafting53_600.jpg" alt="Rafting Adventure">
-            
-                <h1>Rafting Adventures Co.</h1>
- 
-                <article>
-                <img src="images/rafting59_600.jpg" alt="Rafting experience">
-                <p>Experience the thrill of rafting with Rafting Adventures Co.! Join us for a memorable adventure through wild rivers and breathtaking scenery.</p>
-                </article>
-            </div>
+                        <img src="images/happy-employer.jpg">
+                        <div class="profile-caption">
+                            <p>
+                                Experience the thrill of rafting with Rafting Adventures Co.! Join us for a memorable adventure through wild rivers and breathtaking scenery.
+                            </p>
+                        </div>
 
-              <section>
-                <!-- 
-                  6. Main: Section - History
-                  1 pts | Complete One section element has a h2 heading of "History" and a paragraph with any type of content at this point.
-
-                  #week 04
-                  This criterion is linked to a Learning Outcome4. Page Content
-                  Some attempt was made to create content for the History and Adventure sections of the page.
-
-                  # Page Content
-                  Some attempt was made to create content for the History and Adventure sections of the page.
-                -->
-                <h2 class="t-history">History</h2>
-                <div class="rafting-history">
-                    <p>Rafting Adventures Co. was founded in 1999 by a group of passionate adventurers. Over the years, we have grown into a leading company offering thrilling rafting experiences on some of the most scenic rivers in the world.</p>
-                    <img src="images/rafting59_600.jpg" alt="Rafting experience">
-                    <p>Rafting Adventures Co. was founded in 1999 by a group of passionate adventurers. Over the years, we have grown into a leading company offering thrilling rafting experiences on some of the most scenic rivers in the world.</p>
-                </div>
-             
-              </section>
+                    </div>
+        
+                    <div class="col2-3 wk5">
+                     
+                        <h1>Contact Us</h1>
+                        <h2>Send Us a Message</h2>
             
-              <section>
-                <!-- 
-                7. Main: Section - Adventure
-                1 pts | Complete One section element has a h2 heading of "Adventure Awaits You" and five images.
-                -->
-                <h2 class="t-adventure-awaits-you">Adventure Awaits You</h2>
-                <div class="adventure-images">
-                    <div>
-                        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting65_600.jpg" alt="Adventure 1">
-                        <h3>Peaceful rapids</h3>
-                    </div>
-                    <div>
-                        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting64_600.jpg" alt="Adventure 2">
-                        <h3>Colorado River</h3>
-                    </div>
-                    <div>
-                        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting19_600.jpg" alt="Adventure 3">
-                        <h3>Bear River</h3>
-                    </div>
-                    <div>
-                        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting47_600.jpg" alt="Adventure 4">
-                        <h3>Smokey River</h3>
-                    </div>
-                    <div>
-                        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting17_600.jpg" alt="Adventure 5">
-                        <h3>Smokey Riverside</h3>                      
+                        <p>Rafting Adventure</p>
+                        <p>Phone: 900-000-00000</p>
+                        <p>Email: <a href="mailto:aftingadventure@mail.com">raftingadventure@mail.com</a></p>
+
                     </div>
                 </div>
-              </section>  
-             <!-- END OF NUMBER 4 -->
+                <div class="container">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193365.55871417027!2d-111.92048505!3d40.77660799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1742967030485!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="form-container">
+    
+                            <form action="#" method="POST">
+                                <fieldset>
+                                    <legend>Contact Information</legend>
+
+                                    <!-- Name -->
+                                    <div class="form-item column1">
+                                        <label for="name">Your Name:</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="form-item column1">
+                                        <label for="email">Your Email Address:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend>Purpose of Your Message</legend>
+
+                                    <!-- Purpose -->
+                                    <div class="form-item radio-group">
+                                        <label>
+                                           
+                                            <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" required>
+                                            General Inquiry 
+                                        </label>
+                                        <label>
+                                           
+                                            <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                                            Reservation Question
+                                        </label>
+                                        <label>
+                                          
+                                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
+                                            Website Suggestion
+                                        </label>
+                                    </div>
+
+                                </fieldset>
+
+                                <!-- Message -->
+                                <fieldset>
+                                    <legend>Your Message</legend>
+                                    <div class="form-item">
+                                        <textarea id="message" name="message" rows="7"></textarea>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Newsletter Subscription -->
+                                <fieldset>
+                                    <div class="form-item checkbox-group">
+                                        <label for="newsletter">
+                                            <input type="checkbox" name="newsletter" id="newsletter">
+                                            Please subscribe me to the monthly newsletter
+                                        </label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Submit Button -->
+                                <div class="form-item">
+                                    <button type="submit">Submit Your Message</button>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+
+            </section>
+
+
+
 
           </main>
           
