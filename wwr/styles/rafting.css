@@ -628,7 +628,7 @@ button {
 }
 
 .sec-trips-button {
-  background-color: #4CAF50;
+  background-color: navy;
   color: white;
   padding: 15px 30px;
   font-size: 18px;
@@ -692,6 +692,6 @@ button {
 }
 
 .sec-trips-table-info th {
-  background-color: #4CAF50;
+  background-color: navy;
   color: white;
 }
