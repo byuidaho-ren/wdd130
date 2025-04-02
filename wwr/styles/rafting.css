@@ -55,6 +55,9 @@ a:hover {
   color: var(--primary-color);
 }
 
+.hero-article-title {
+  color: var(--text-color-highligh);
+}
 /* Position the hero div relatively */
 .hero {
   position: relative;
@@ -70,7 +73,7 @@ a:hover {
 }
 
 /* Absolutely position the h1 and article elements */
-.hero h1 {
+.hero-top-fold {
   position: absolute;
   /* Position it 20% from the top */
   top: 10%;
@@ -362,10 +365,6 @@ button {
   margin-bottom: 15px;
 }
 
-button:hover {
-  background-color: darkgreen;
-}
-
 .form-item {
   display: grid;
   align-items: center;
@@ -447,4 +446,154 @@ button:hover {
     bottom: 0px;
     color: #fff;
     padding-left: 15px;
+}
+
+/* news letter */
+/* Container for the form */
+.signup-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+/* Label styling */
+.label-name, .label-email {
+  text-align: left;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #555;
+}
+
+/* Input fields */
+.input-name, .input-email {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.signup-btn {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: rgb(4, 4, 124);
+}
+
+#signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ /* Call-to-action section */
+.cta-section {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Title styling */
+.cta-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:  navy;
+}
+
+/* Subtext styling */
+.cta-subtext {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+/* Button styling */
+.cta-button {
+  background-color: navy;
+  color: #4CAF50;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: navy;
+  color: white;
+}
+
+/* Section with a unique ID */
+#home_id_grid_whitewater {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Image container styling */
+.sec-home-image-container {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.sec-home-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Content container styling */
+.sec-home-content-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sec-home-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.sec-home-text {
+  font-size: 16px;
+  color: #555;
 }
