@@ -554,7 +554,7 @@ button {
 
 .cta-button:hover {
   background-color: navy;
-  color: white;
+  color: white; 
 }
 
 /* Section with a unique ID */
